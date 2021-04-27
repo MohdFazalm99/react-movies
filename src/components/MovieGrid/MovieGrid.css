@@ -1,0 +1,32 @@
+/* .card .card-image .card-date {
+    color: #fff;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+}
+
+.card .card-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+} */
+
+.card-image {
+    overflow: hidden;
+}
+
+.card-image:hover img {
+    transition: all 0.6s ease 0s;
+    transform: scale(1.5);
+}
+
+.card {
+    background: rgba(192, 185, 185, 0.6);
+    position: relative;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
